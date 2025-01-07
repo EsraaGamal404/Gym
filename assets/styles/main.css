@@ -176,6 +176,12 @@ margin: auto;
   text-align: center;
   margin-top: 60px;
  }
+ .images{
+  margin-top: 60px;
+ }
+ .images img{
+  width: 200px;
+ }
  .line{
   margin-top: 40px;
  }
