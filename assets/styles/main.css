@@ -112,8 +112,8 @@ color: #fff;
 font-size: 50px;
 font-weight: bold;
  }
- .hero .container .info p{
-  color: #e7e3e3;
+ .section-p{
+  color: #adaaaa;
   font-size: 16px;
   margin-top: 20px;
  }
@@ -142,4 +142,36 @@ font-weight: bold;
   display: flex;
   gap: 10px;
   align-items: center;
+ }
+ .services{
+  padding: 60px;
+  background-color: #000;
+  box-shadow: 0 0 100px 100px #0a181f;
+ }
+ .services h2{
+  color: #fff;
+  font-size: 36px;
+ }
+ .special-text{
+  color: #FF921B;
+ }
+ .services .service-list .service h3{
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 400;
+ }
+ .service img{
+display: flex;
+width: 50px;
+align-items: center;
+margin: auto;
+ }
+ .service{
+  width: fit-content;
+  text-align: center;
+  margin-top: 60px;
+ }
+ .line{
+  margin-top: 40px;
  }
