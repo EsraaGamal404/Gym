@@ -148,11 +148,11 @@ font-weight: bold;
   background-color: #000;
   box-shadow: 0 0 100px 100px #0a181f;
  }
- .about,.Join{
+ .about,.Join,.option{
   padding: 60px;
   background-color: #000;
  }
- .services h2,.about h2,.Join h2{
+ .services h2,.about h2,.Join h2,.option h2{
   color: #fff;
   font-size: 36px;
  }
@@ -202,7 +202,19 @@ font-weight: 400;
 .card .details{
   margin-top: 20px;
 }
-.card button{
+.card button,.option button{
   margin-top: 15px;
   margin-left: 12px;
+}
+.option .container li{
+  color: #fff;
+}
+.option .container ul{
+  display: grid;
+  gap: 10px;
+  margin-top: 60px;
+}
+.img2{
+
+  margin-left: 90px;
 }
