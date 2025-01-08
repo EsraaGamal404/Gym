@@ -86,6 +86,7 @@ header nav input{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
   }
   img {
     max-width: 100%;
@@ -215,6 +216,43 @@ font-weight: 400;
   margin-top: 60px;
 }
 .img2{
-
   margin-left: 90px;
+}
+.contact{
+  background-color: #272727;
+padding: 60px;
+}
+.content p{
+  color: #fff;
+  margin-top: 20px;
+}
+.links a{
+  display: block;
+  color: #adaaaa;
+  line-height: 1.5;
+}
+.links h4{
+  color: #fff;
+}
+.btn3{
+  background-color: #979494;
+  color: #fff;
+  border: 1px solid #979494;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  gap: 10px;
+}
+.contact .container{
+  align-items: flex-start;
+}
+footer{
+  background-color: #FF921B;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
